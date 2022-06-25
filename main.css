@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --ff:'Poppins';
+  --ff2:'Pirata One';
+  --fs:normal;
+  --primcolor:#F2994A;
+  --seccolor:#FFF7F7;  
+}
+/* ff means font family
+fs means font style
+primcolor is the primary color
+seccolor is the secondary color */
+
+
+header{
+    background: url(home.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+    height: 100vh;
+}
+
+.header-start{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-start nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+    font-family: var(--ff2);
+    font-style: var(--fs);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--primcolor);
+    margin-left:40px;
+}
+.logo h3{
+    font-family: var(--ff);
+    font-style: var(--fs);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.h-logo{
+    position: absolute;
+    top: 20%;
+    left:60% ;
+}
+
+.page-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 60px;
+    font-family: var(--ff);
+    font-style: var(--fs);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--seccolor);
+
+}
+
+.header-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* position: absolute;
+    top: 25%;
+    right: 25%;
+    left: 25%; */
+
+}
+.header-content{
+    /* padding: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid red;
+    /* margin-bottom: 50px; */
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.booking-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* gap: 20px; */
+    background-color: var(--seccolor);
+    position: absolute;
+    top: 90%;
+    margin-bottom: 30px;
+
+
+}
+.forms{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section2{
+    margin-top: 80px;
+    padding: 30px;
+}
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.section2-logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: var(--ff2);
+    font-style: var(--fs);
+    font-weight: 400;
+    font-size: 60px;
+    color: #F2994A;
+}
+
+.section2-h-logo{
+    position: absolute;
+    top: 40%;
+    right:-60% ;
+}
+
+.page-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--ff);
+    font-style: var(--fs);
+    word-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.page-description-title{
+    font-weight: 700;
+    color: var(--primcolor);
+}
+
+.showcase{
+    padding: 50px;
+}
+
+.showcase ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+}
+.showcase>ul>li>img{
+    width: 100%;
+    height: auto;
+}
+
